@@ -1,10 +1,9 @@
 <template>
   <div>
-    <div class="disclaimer" v-if="!closedDisclaimer">
-      <router-link :to="{name: 'about-en'}">Learn more about this project in English</router-link>
-      <a class="close-disclaimer pull-right" href="#" @click="closeDisclaimer">&times;</a>
-    </div>
-    <div class="cascade"></div>
+    <!-- <div class="disclaimer" v&#45;if="!closedDisclaimer"> -->
+    <!--   <router&#45;link :to="{name: 'about&#45;en'}">Learn more about this project in English</router&#45;link> -->
+    <!--   <a class="close&#45;disclaimer pull&#45;right" href="#" @click="closeDisclaimer">&#38;times;</a> -->
+    <!-- </div> -->
     <nav class="navbar navbar-default"><div class="container">
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#main-menu" aria-expanded="false">
@@ -14,7 +13,7 @@
             <span class="icon-bar"></span>
             <span class="icon-bar"></span>
           </button>
-          <a class="navbar-brand" href="/"><img src="/img/logo-beta.png"></a>
+          <a class="navbar-brand" href="/"><img src="/img/logo.svg"></a>
         </div>
         <div id="main-menu" class="collapse navbar-collapse" aria-expanded="false">
           <ul class="nav navbar-nav navbar-right">
@@ -28,7 +27,6 @@
               <router-link :to="{name:'about'}" class="menuitem">Acerca</router-link>
             </li>
             <li>
-              <router-link :to="{name:'mediakit'}" class="menuitem">Mediakit</router-link>
             </li>
           </ul>
         </div>

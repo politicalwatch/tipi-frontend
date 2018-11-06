@@ -2,7 +2,7 @@
   <div>
     <navbar></navbar>
     <div id="dashboard">
-      <page-header :title="'Métricas'" :subtitle="'Elige un Objetivo de Desarrollo Sostenible, o profundiza a nivel meta, y descubre las principales magnitudes de la actividad del Congreso de los Diputados sobre la Agenda 2030'"></page-header>
+      <page-header :title="'Métricas'" :subtitle="'Elige una temática TIPI y descubre las principales magnitudes de la actividad del Congreso de los Diputados sobre ella'"></page-header>
       <div class="container page">
         <div class="row">
           <div class="col-sm-12">
@@ -10,8 +10,8 @@
               <form id="search-form" class="form-horizontal" role="form" @submit.prevent="getResults">
                 <fieldset>
                   <div class="form-group">
-                    <label for="topic" class="col-sm-1 control-label">Objetivos</label>
-                    <div class="col-sm-4">
+                    <label for="topic" class="col-sm-1 control-label">Tema</label>
+                    <div class="col-sm-11">
                       <multiselect
                         @select="fillSubtopics"
                         v-model="data.topic"
@@ -19,14 +19,14 @@
                         name="topic" id="topic" placeholder="Todos">
                       </multiselect>
                     </div>
-                    <label for="subtopics" class="col-sm-1 control-label">Metas</label>
-                    <div class="col-sm-6">
-                      <multiselect
-                        v-model="data.subtopic"
-                        :options="subtopics"
-                        name="subtopic" id="subtopic" placeholder="Todas">
-                      </multiselect>
-                    </div>
+                    <!-- <label for="subtopics" class="col&#45;sm&#45;1 control&#45;label">Metas</label> -->
+                    <!-- <div class="col&#45;sm&#45;6"> -->
+                    <!--   <multiselect -->
+                    <!--     v&#45;model="data.subtopic" -->
+                    <!--     :options="subtopics" -->
+                    <!--     name="subtopic" id="subtopic" placeholder="Todas"> -->
+                    <!--   </multiselect> -->
+                    <!-- </div> -->
                   </div>
                 </fieldset>
               </form>

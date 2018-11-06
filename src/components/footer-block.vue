@@ -6,17 +6,39 @@
           <div class="container">
             <div class="row">
               <div class="col-sm-4 text-center">
-                <a href="/"><img src="/img/logo-beta.png" class="big" alt="Logo de Parlamento 2030"></a>
-                <a href="http://politicalwatch.es" target="_blank"><img src="/img/politicalwatch.png" class="small" alt="Logo de Political Watch"></a>
+                <a href="/"><img src="/img/logo_big.svg" class="big" alt="Logo de TIPI Ciudadano"></a>
+                <br/>
+                <a href="http://politicalwatch.es" target="_blank"><img src="/img/politicalwatch-transparent-bg.png" class="small" alt="Logo de Political Watch"></a>
               </div>
               <div class="col-sm-7">
                 <p>
-                <strong>Parlamento 2030</strong> es un proyecto de <a href="http://politicalwatch.es" target="_blank">Political Watch</a>, plataforma que se inscribe dentro del think-and-do tank <a href="http://ciecode.es" target="_blank">CIECODE</a>.
+                <strong>TIPI Ciudadano</strong> es un proyecto de <a href="http://politicalwatch.es" target="_blank">Political Watch</a>, plataforma que se inscribe dentro del think-and-do tank <a href="http://ciecode.es" target="_blank">CIECODE</a>.
                 <br/>
                 Todo el código fuente está disponible en <a href="https://github.com/politicalwatch" target=_blank>Github</a> con licencia <a href="https://www.gnu.org/copyleft/gpl.html" target="_blank">GNU/GPLv3</a>.
                 <br/>
-                Contáctanos en <a href="mailto:parlamento2030@ciecode.es" target="_blank">parlamento2030@ciecode.es</a>
+                Contáctanos en <a href="mailto:tipiciudadano@ciecode.es" target="_blank">tipiciudadano@ciecode.es</a>
                 </p>
+                <p>
+                <a href="https://twitter.com/tipi_ciudadano">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                    <i class="fa fa-twitter fa-stack-1x"></i>
+                  </span>
+                </a>
+                <a href="https://facebook.com/tipiciudadano">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                    <i class="fa fa-facebook fa-stack-1x"></i>
+                  </span>
+                </a>
+                <a href="https://github.com/politicalwatch">
+                  <span class="fa-stack fa-lg">
+                    <i class="fa fa-circle-thin fa-stack-2x"></i>
+                    <i class="fa fa-github fa-stack-1x"></i>
+                  </span>
+                </a>
+                </p>
+                
               </div>
               
             </div>

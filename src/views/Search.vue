@@ -3,7 +3,7 @@
     <splash></splash>
     <navbar></navbar>
     <div id="search">
-      <page-header :title="'Buscar'" :subtitle="'Bucea en la actividad parlamentaria relacionada con los ODS con las múltiples opciones que te ofrece el buscador de Parlamento 2030'"></page-header>
+      <page-header :title="'Buscar'" :subtitle="'Bucea en la actividad parlamentaria relacionada con las temáticas TIPI'"></page-header>
       <div id="messages" class="container" v-if="query_meta.hasOwnProperty('total')">
           <div class="row">
             <div class="col-sm-12">
@@ -23,7 +23,7 @@
               <form id="search-form" class="form-horizontal" role="form" @submit.prevent="getResults">
                 <fieldset>
                   <div class="form-group">
-                    <label for="topic" class="col-sm-1 control-label">ODS/SDG</label>
+                    <label for="topic" class="col-sm-1 control-label">Tema</label>
                     <div class="col-sm-5">
                       <multiselect
                         selectedLabel="Seleccionado"
@@ -37,7 +37,7 @@
                         name="topic" id="topic" placeholder="Todos">
                       </multiselect>
                     </div>
-                    <label for="subtopics" class="col-sm-1 control-label">Metas</label>
+                    <label for="subtopics" class="col-sm-1 control-label">Subtema</label>
                     <div class="col-sm-5">
                       <multiselect
                         selectedLabel="Seleccionada"
@@ -50,7 +50,7 @@
                         :options="subtopics"
                         :allow-empty="true"
                         :disabled="!this.subtopics.length"
-                        :placeholder="this.subtopics.length ? 'Todos' : 'Selecciona previamente un ODS/SDG'"
+                        :placeholder="this.subtopics.length ? 'Todos' : 'Selecciona previamente un tema'"
                         name="subtopics" id="subtopics" >
                       </multiselect>
                     </div>
@@ -67,7 +67,7 @@
                         :options="filteredTags"
                         :allow-empty="true"
                         :disabled="!this.filteredTags.length"
-                        :placeholder="this.filteredTags.length ? 'Todos' : 'Selecciona previamente un ODS/SDG'"
+                        :placeholder="this.filteredTags.length ? 'Todos' : 'Selecciona previamente un tema'"
                         name="tags" id="tags" >
                       </multiselect>
                     </div>

@@ -41,16 +41,16 @@ export default new Router({
       name: "about",
       component: About
     },
-    {
-      path: "/about-en",
-      name: "about-en",
-      component: AboutEnglish
-    },
-    {
-      path: "/mediakit",
-      name: "mediakit",
-      component: Mediakit
-    },
+    // {
+    //   path: "/about-en",
+    //   name: "about-en",
+    //   component: AboutEnglish
+    // },
+    // {
+    //   path: "/mediakit",
+    //   name: "mediakit",
+    //   component: Mediakit
+    // },
     {
       path: "/*",
       name: "Page404",
