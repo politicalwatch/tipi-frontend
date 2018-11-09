@@ -28,12 +28,12 @@
                 </p>
               </div>
             </div>
-            <div class="row">
-              <div class="col-sm-12 text-center neuron-block">
-                <span>Relación de esta iniciativa con los ODS <sup title="El gráfico muestra los ODS relacionados con la iniciativa y el grado de relación con cada uno de ellos, cuya intensidad se refleja en la barra circular que los rodea."><i class="fa fa-question-circle"></i></sup></span>
-                <neuron :initiative="initiative"  v-if="dataLoaded"></neuron>
-              </div>
-            </div>
+            <!-- <div class="row"> -->
+            <!--   <div class="col&#45;sm&#45;12 text&#45;center neuron&#45;block"> -->
+            <!--     <span>Relación de esta iniciativa con los ODS <sup title="El gráfico muestra los ODS relacionados con la iniciativa y el grado de relación con cada uno de ellos, cuya intensidad se refleja en la barra circular que los rodea."><i class="fa fa&#45;question&#45;circle"></i></sup></span> -->
+            <!--     <neuron :initiative="initiative"  v&#45;if="dataLoaded"></neuron> -->
+            <!--   </div> -->
+            <!-- </div> -->
           </div>
         </div>
         <div v-if="initiative.related && initiative.related.length">
