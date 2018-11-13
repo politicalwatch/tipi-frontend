@@ -16,7 +16,7 @@
                 <br/>
                 Todo el código fuente está disponible en <a href="https://github.com/politicalwatch" target=_blank>Github</a> con licencia <a href="https://www.gnu.org/copyleft/gpl.html" target="_blank">GNU/GPLv3</a>.
                 <br/>
-                Contáctanos en <a href="mailto:tipiciudadano@ciecode.es" target="_blank">tipiciudadano@ciecode.es</a>
+                Contáctanos en <a href="mailto:tipi@ciecode.es" target="_blank">tipi@ciecode.es</a>
                 </p>
                 <p>
                 <a href="https://twitter.com/tipi_ciudadano">
