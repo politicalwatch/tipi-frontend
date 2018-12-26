@@ -195,25 +195,27 @@
               </form>
             </div>
 
-            <div v-show="initiatives.length" class="well search-actions">
+            <div class="well search-actions">
               <save-alert :searchparams="data" v-show="alertsIsEnabled()"></save-alert>
-              <a
-                v-if="!csvItems.length"
-                :class="{ disabled: !canDownloadCSV }"
-                :title="!canDownloadCSV ? 'Demasiados resultados para poder descargar. Afina la búsqueda' : 'Descarga CSV con todos los resultados'"
-                @click.prevent="loadCSVItems"
-                class="pull-right" href="#">
-                <i class="fa fa-download" aria-hidden="true"></i>&nbsp;Descargar datos
-              </a>
-              <vue-csv-downloader
-                v-else
-                :data="csvItems"
-                :fields="csvFields"
-                :downloadName="getNameFromCSV()"
-                id="downloadCSV"
-                class="pull-right">
-                <i class="fa fa-download" aria-hidden="true"></i>&nbsp;Descargar datos
-              </vue-csv-downloader>
+              <span v-show="initiatives.length">
+                <a
+                  v-if="!csvItems.length"
+                  :class="{ disabled: !canDownloadCSV }"
+                  :title="!canDownloadCSV ? 'Demasiados resultados para poder descargar. Afina la búsqueda' : 'Descarga CSV con todos los resultados'"
+                  @click.prevent="loadCSVItems"
+                  class="pull-right" href="#">
+                  <i class="fa fa-download" aria-hidden="true"></i>&nbsp;Descarga datos
+                </a>
+                <vue-csv-downloader
+                  v-else
+                  :data="csvItems"
+                  :fields="csvFields"
+                  :downloadName="getNameFromCSV()"
+                  id="downloadCSV"
+                  class="pull-right">
+                  <i class="fa fa-download" aria-hidden="true"></i>&nbsp;Descarga datos
+                </vue-csv-downloader>
+              </span>
             </div>
 
             <div v-if="this.loadingResults" class="text-center"><h2>Cargando resultados...</h2></div>
@@ -455,7 +457,7 @@ export default {
       api.getInitiatives(params)
          .then(response => {
            this.csvItems = response.initiatives;
-           event.target.innerText = "Descargar datos";
+           event.target.innerText = "Descarga datos";
           })
          .catch(error => this.errors = error);
     },
