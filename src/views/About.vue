@@ -28,7 +28,13 @@
             <p>TIPI es un proyecto promovido, financiado y ejecutado por CIECODE (Centro de Investigación y Estudios sobre Coherencia y Desarrollo), una organización española especializada en el análisis de políticas públicas, en la coherencia de políticas para el desarrollo y en proyectos de transparencia, rendición de cuentas y participación ciudadana.</p>
             <p>La primera versión de TIPI (mayo 2014 - septiembre 2015) fue financiada por el Programa de Ciudadanía Activa de los EEA Grants y tuvo como socios a UNICEF-comité español, EAPN España, EAPN Castilla la Mancha y Fundación porCausa.</p>
             <p>CIECODE es también la organización impulsora del <a href="https://ciecode.es/political-watch/proyecto-avizor/" target="_blank">Proyecto Avizor</a>, socia fundadora de <a href="http://www.poletika.org/" target="_blank">Polétika</a>, pertenece a la Red Española de Estudios de Desarrollo (<a href="http://www.reedes.es/" target="_blank">REEDES</a>) y a la <a href="http://www.proacceso.org/" target="_blank">Coalición ProAcceso</a> y ha publicado <a href="https://ciecode.es/investigacion/" target="_blank">numerosos informes</a> sobre coherencia de políticas, comercio y desarrollo, transparencia y ciudadanía activa.</p>
-            
+=======
+            <p>Parlamento 2030 es un proyecto de <a href="http://politicalwatch.es" target="_blank">Political Watch</a>, la plataforma que se inscribe dentro de la estrategia del think tank <a href="http://ciecode.es" target="_blank">CIECODE</a> y que está formado por profesionales de distintas disciplinas como informáticos, periodistas y economistas. Nuestra misión es fomentar un debate público informado y basado en hechos sobre el desarrollo sostenible. Desarrollamos tecnologías innovadoras que automáticamente rastrean actividad relacionada con el desarrollo sostenible y que ofrecen acceso a esta información de forma pública, directa y gratuita a actores clave y ciudadanos.</p>
+            <h4>¿De dónde venimos?</h4>
+            <p>Parlamento 2030 es una adaptación de TiPi, una herramienta digital implementada en España desde 2015, que monitoriza toda la actividad parlamentaria de 21 temáticas relacionadas con la lucha contra la pobreza y la desigualdad. TiPi (que responde a las siglas de Transparencia + Información + Participación + Influencia) es otro innovador proyecto de Political Watch que genera datos abiertos y fomenta la transparencia, el acceso a información y la rendición de cuentas política a través de la monitorización parlamentaria de las 21 temáticas estratégicamente seleccionadas, a través del mismo avanzado sistema de escrapeo y etiquetado utilizado en Parlamento 2030.</p>
+            <div style="text-align:center">
+              <router-link class="btn btn-custom" :to="{name: 'mediakit'}">Visita nuestro Mediakit</router-link>
+            </div>
           </div>
         </div>
       </div>
