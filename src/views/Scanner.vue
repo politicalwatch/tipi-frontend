@@ -34,7 +34,7 @@
             <div class="data-result" v-else>
               <div class="row">
                 <div class="col-sm-7">
-                  <topics-element :meta="'ODS tratados'" :topics="result.topics" :tags="result.tags"></topics-element>
+                  <topics-element :meta="'Temas tratados'" :topics="result.topics" :tags="result.tags"></topics-element>
                 </div>
                 <div class="col-sm-5">
                   <p class="helptext">Si haces clic en cualquiera de las etiquetas relacionadas con tu texto podrás conocer además toda la actividad parlamentaria asociada con dicha etiqueta.</p>
