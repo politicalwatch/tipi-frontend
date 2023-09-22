@@ -1,6 +1,10 @@
 TIPI FRONTEND
 =============
 
+## Read first
+
+TIPI FRONTEND is no longer in active development, you can find our latest projects at [Parlamento2030](https://github.com/politicalwatch/parlamento2030.es) and [QHLD](https://github.com/politicalwatch/quehacenlosdiputados.es).
+
 ## Requirements
 
 NodeJS > 8.0
